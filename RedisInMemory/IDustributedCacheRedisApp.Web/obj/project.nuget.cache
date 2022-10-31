@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jh2DFyW5+Z8wjYCs/NlB/tnU7AImiXFF972K0ksGKSVI6WliPu6MGe2sv8qQJdB6f3VCZ+cxASJECasPywYizw==",
+  "dgSpecHash": "hw2lMNNpD8l8rJBxfoOd+W/fAMCwaG5atCHCd/pcEW0jESiyjH6WI/WaL6MkLjxYXErXSa6Mo3xXXYLYaC/lfQ==",
   "success": true,
   "projectFilePath": "D:\\DEVELOPMENT\\Udemy\\Asp.Net-Core-Redis-In-Memory\\RedisInMemory\\IDustributedCacheRedisApp.Web\\IDustributedCacheRedisApp.Web.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "C:\\Users\\yucel\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\yucel\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\yucel\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\yucel\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\yucel\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.0\\pipelines.sockets.unofficial.2.2.0.nupkg.sha512",
     "C:\\Users\\yucel\\.nuget\\packages\\stackexchange.redis\\2.2.4\\stackexchange.redis.2.2.4.nupkg.sha512",
     "C:\\Users\\yucel\\.nuget\\packages\\system.configuration.configurationmanager\\5.0.0\\system.configuration.configurationmanager.5.0.0.nupkg.sha512",
