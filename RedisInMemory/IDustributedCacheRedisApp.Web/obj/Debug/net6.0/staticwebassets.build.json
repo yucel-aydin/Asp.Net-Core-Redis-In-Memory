@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zb+asvEmrY3zHlgFVkLrEf29uW5l2jXZ4kNpiodwTRM=",
+  "Hash": "yzj5RZAjTnd3Vqzfv494uhCpkzSxCWLa36fqBqpjuKc=",
   "Source": "IDustributedCacheRedisApp.Web",
   "BasePath": "_content/IDustributedCacheRedisApp.Web",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\DEVELOPMENT\\Udemy\\Asp.Net-Core-Redis-In-Memory\\RedisInMemory\\IDustributedCacheRedisApp.Web\\wwwroot\\images\\sample.png",
+      "SourceId": "IDustributedCacheRedisApp.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DEVELOPMENT\\Udemy\\Asp.Net-Core-Redis-In-Memory\\RedisInMemory\\IDustributedCacheRedisApp.Web\\wwwroot\\",
+      "BasePath": "_content/IDustributedCacheRedisApp.Web",
+      "RelativePath": "images/sample.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\sample.png"
     },
     {
       "Identity": "D:\\DEVELOPMENT\\Udemy\\Asp.Net-Core-Redis-In-Memory\\RedisInMemory\\IDustributedCacheRedisApp.Web\\wwwroot\\js\\site.js",
