@@ -1,5 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using IDustributedCacheRedisApp.Web.Models;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Caching.Distributed;
+using Newtonsoft.Json;
+using System.Text;
 
 namespace IDustributedCacheRedisApp.Web.Controllers
 {
@@ -20,23 +23,23 @@ namespace IDustributedCacheRedisApp.Web.Controllers
             #endregion
 
             #region Complex Data Kaydetme
-            //// Nesne Kaydetme
-            //DistributedCacheEntryOptions cacheEntryOptions = new DistributedCacheEntryOptions();
-            //cacheEntryOptions.AbsoluteExpiration = DateTime.Now.AddMinutes(30);
-            //Product product = new Product()
-            //{
-            //    Id = 3,
-            //    Name = "Kitap 3",
-            //    Price = 500
-            //};
-            //string jsonProduct = JsonConvert.SerializeObject(product);
+            // Nesne Kaydetme
+            DistributedCacheEntryOptions cacheEntryOptions = new DistributedCacheEntryOptions();
+            cacheEntryOptions.AbsoluteExpiration = DateTime.Now.AddMinutes(30);
+            Product product = new Product()
+            {
+                Id = 3,
+                Name = "Kitap 3",
+                Price = 500
+            };
+            string jsonProduct = JsonConvert.SerializeObject(product);
 
-            //await _distributedCache.SetStringAsync("product:2", jsonProduct, cacheEntryOptions);
+            await _distributedCache.SetStringAsync("product:2", jsonProduct, cacheEntryOptions);
 
-            //// Binary Kaydetme
-            //Byte[] byteProduct = Encoding.UTF8.GetBytes(jsonProduct);
+            // Binary Kaydetme
+            Byte[] byteProduct = Encoding.UTF8.GetBytes(jsonProduct);
 
-            //await _distributedCache.SetAsync("product:3", byteProduct, cacheEntryOptions);
+            await _distributedCache.SetAsync("product:3", byteProduct, cacheEntryOptions);
 
             #endregion
 
